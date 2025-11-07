@@ -15,7 +15,7 @@ namespace vaja6 {
         public static int stIg = 1;
 
 		// Privzeti konstrukotor
-        public Igralec() {
+        private Igralec() {
             u_ime = "";
             u_geslo = "";
             id = stIg;
@@ -23,7 +23,7 @@ namespace vaja6 {
         }
 
 		// Lastnost ID
-        public int Id {
+        private int Id {
             get
             {
                 return id;
@@ -31,7 +31,7 @@ namespace vaja6 {
         }
 
 		// Lastnost ime
-        public string U_ime {
+        private string U_ime {
             get
             {
                 return u_ime;
@@ -43,7 +43,7 @@ namespace vaja6 {
         }
 
 		// Lastnost geslo
-        public string U_geslo
+        private string U_geslo
         {
             get
             {
@@ -56,7 +56,7 @@ namespace vaja6 {
         }
 
 		// Lastnost stevilo igralcev
-        public static int StIg
+        private static int StIg
         {
             get { return stIg; }
         }
